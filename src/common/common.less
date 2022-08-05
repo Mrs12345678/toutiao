@@ -1,0 +1,26 @@
+
+
+//  这里能定义全局变量
+
+@mColor:#07c160;   //  当前页面有效     页面任何less里都可以
+@nav-bar-background-color:@mColor;
+@tabs-bottom-bar-color:@mColor;
+@nav-bar-title-text-color:#fff;
+@nav-bar-icon-color:#fff;
+@nav-bar-text-color:#FFF;
+.border(@pos:bottom, @c:#000,@w:100%,@h:1px,){
+    
+    position: relative;
+
+    &::after{
+        display: block;
+        position: absolute;
+        content: "";
+        width:@w ;
+        height: @h;
+        background-color: @c;
+        bottom:  if((@pos=bottom),0,auto);
+
+    }
+
+}
