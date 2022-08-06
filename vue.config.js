@@ -4,7 +4,7 @@ module.exports = defineConfig({
   // publicPath: '/mytoutiao',
   // assetsDir: 'static',
   // parallel: false,
-  // publicPath: './',
+  publicPath: './',
   css: {
     loaderOptions: {
       less: {
