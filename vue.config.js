@@ -2,9 +2,9 @@ const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
   // publicPath: '/mytoutiao',
-  assetsDir: 'static',
-  parallel: false,
-  publicPath: './',
+  //assetsDir: 'static',
+ // parallel: false,
+  //publicPath: './',
   css: {
     loaderOptions: {
       less: {
